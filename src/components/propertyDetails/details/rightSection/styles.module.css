@@ -1,0 +1,82 @@
+.book-now{
+    /* border: 1px solid #575757; */
+    border: 2px solid #f586146b;
+    border-radius: 0.8rem;
+    margin: 2rem 0 0 2rem;
+    width: 100%;
+}
+.row{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-guests{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.border-bottom{
+    /* border-bottom: 1px solid #575757; */
+    border-bottom: 2px solid #f586146b;
+}
+.col-6{
+    width: 50%;
+    height: 100%;
+}
+.border-right{
+    /* border-right: 1px solid #575757; */
+    border-right: 2px solid #f586146b;
+}
+.book-now-button{
+    width: 100%;
+    margin: 2rem 0 2rem 2rem !important;/*included *!important* - conflicting with MUI */
+    padding: 1rem !important;/*included *!important* - conflicting with MUI */
+    font-size: 1.5rem !important;/*included *!important* - conflicting with MUI */
+    font-weight: 700 !important;/*included *!important* - conflicting with MUI */
+}
+.price{
+    font-size: 1.2rem;
+    color: #924bf8;
+    font-weight: 700;
+}
+.calender-row{
+    display: flex;
+    
+}
+.calender-input fieldset{
+    border: none;
+}
+.guest-dropdown{
+    width: 80%;
+    padding: 1rem 2rem;
+    margin: 0 2rem;
+    background: no-repeat;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 0.8rem;
+}
+
+.guest-dropdown:focus-visible{
+    outline: none;
+}
+.guests-title{
+    text-align: left;
+    margin: 0 2rem;
+    width: 80%;
+    font-weight: 500;
+}
+.guests{
+    width: 100% !important;
+}
+.guests-dd fieldset{
+    border: none !important;
+}
+
+@media (max-width: 900px) {
+    .book-now{
+        margin: 5rem 0 0 0;
+    }
+    .book-now-button{
+        margin: 2rem 0 2rem 0 !important;/*included *!important* - conflicting with MUI */
+    }
+    
+}

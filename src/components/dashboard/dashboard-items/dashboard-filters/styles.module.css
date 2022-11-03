@@ -1,0 +1,81 @@
+.filters{
+    display: flex;
+    justify-content: space-between;
+}
+.filter-icons-section{
+    display: flex;
+    overflow-x: scroll;
+    margin-right: 5vw;
+    padding: 0.75rem 0;
+    justify-content: space-between;
+    width: 100%;
+    height: 7vh;
+}
+.filter-button{
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+}
+.filter-button-section{
+    display: flex;
+}
+
+.sort-dropdown{
+    /* width: 80%; */
+    padding: 1rem 2rem;
+    /* margin: 0 2rem; */
+    background: no-repeat;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 0.8rem;
+}
+
+.sort-dropdown:focus-visible{
+    outline: none;
+}
+.filter-modal{
+    display: flex;
+    flex-direction: column;
+}
+.margin-modal{
+    margin-top: 2rem !important;
+}
+.modal-title{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #5798F1;
+}
+.close-modal{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+.close-modal img{
+    height: 1.5rem;
+    cursor: pointer;
+}
+.filter-modal-button{
+    margin-top: 5rem !important;
+    padding: 0.5rem !important;
+    font-size: 1.5rem !important;
+}
+.modal-container{
+    width: 50% !important;
+    max-width: 400px !important;
+}
+@media (max-width: 800px) {
+    .filter-icons-section{
+        height: 10vh;
+    }
+    .filter-button{
+        margin-right: 0;
+    }
+    .filter-button-section{
+        flex-direction: column-reverse;
+    }
+    .filter-button.red{
+        margin-top: 1rem;
+    }
+    .modal-container{
+        width: 70% !important;
+    }
+}

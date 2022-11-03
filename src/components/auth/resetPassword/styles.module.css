@@ -1,0 +1,74 @@
+.login-background {
+    /* The image used */
+    background-image: url(./../../../public/images/Signup.svg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-card {
+    margin: auto;
+    background-color: rgba(71, 70, 70,0.15);
+    width: 50%;
+    height: 50%;
+    display: grid;
+    backdrop-filter: blur(6px);
+    padding: 5vh 2vw;
+    border-radius: 1.2rem;
+}
+.google-button{
+    background: #fff !important;
+    color: black !important;
+}
+.input-container {
+    display: grid;
+}
+.input-title{
+    font-size: 1.5rem;
+    display: inherit;
+}
+.input-field{
+    margin-top: 1.5rem !important;/*included *!important* - conflicting with MUI */ 
+    max-width: 700px;
+    
+}
+.input-field input{
+    padding-left: 2rem !important;
+}
+.reset-button{
+    border-radius: 2rem !important; /*included *!important* - conflicting with MUI */
+    width: 50% !important; /*included *!important* - conflicting with MUI */
+    margin: auto !important; /*included *!important* - conflicting with MUI */
+    padding: 0.5rem !important; /*included *!important* - conflicting with MUI */
+    font-size: 1.5rem !important; /*included *!important* - conflicting with MUI */
+    font-weight: 400 !important; /*included *!important* - conflicting with MUI */
+}
+
+@media (max-width: 800px) {
+    .center-card {
+        width: 90%;
+    }
+    .input-title{
+        font-size: 1rem;
+    }
+    .input-field input{
+        padding: 0.7rem 1rem 0.7rem 2rem !important;
+    }
+    .reset-button{
+        width: 70% !important; /*included *!important* - conflicting with MUI */
+        font-size: 1rem !important; /*included *!important* - conflicting with MUI */
+        padding: 0.4rem 0.2rem !important; /*included *!important* - conflicting with MUI */
+       
+    }
+
+}
+
+@media (max-height: 800px) {
+    .center-card {
+        height: 50%;
+    }
+}

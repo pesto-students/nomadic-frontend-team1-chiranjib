@@ -1,0 +1,116 @@
+.properties-container {
+  padding: 1rem 2rem;
+  margin: auto;
+  /* background: rgb(239, 239, 239, 0.82); */
+  /* background: linear-gradient(#ffafbc6e, #ffc3a09e); */
+  min-height: 81vh;
+  color: #000;
+ 
+}
+.title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: left;
+  color: #575757;
+  margin-top: 1.5rem;
+}
+.properties-card{
+  height: 100%;
+  
+}
+.properties-card-left {
+  display: flex !important;
+  /*included *!important* - conflicting with MUI */
+  flex-direction: column !important;
+
+}
+.properties-card-right{
+  display: flex !important;/*included *!important* - conflicting with MUI */
+  flex-direction: column !important;/*included *!important* - conflicting with MUI */
+  justify-content: space-between;
+  padding: 3rem 0 2rem !important;
+}
+.card-item{
+  height: 100%;
+}
+.property-name {
+  font-size: 1.5rem;
+  color: #000;
+}
+.text-thin {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.margin-left{
+  margin-left: 1rem;
+}
+.rooms-row{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+.margin-right{
+  margin-right: 1rem;
+}
+.price{
+  color: #3C88F1;
+  font-size: 1.3rem;
+}
+.properties-time{
+  color: #000;
+  font-weight: 500;
+  text-align: center;
+}
+.rooms-image {
+  max-height: 2rem;
+  margin-right: 1rem;
+}
+.add-property{
+  margin-top: 5rem !important;/*included *!important* - conflicting with MUI */
+  padding: 0.4rem 3rem !important;/*included *!important* - conflicting with MUI */
+}
+
+.properties-card-container{
+  min-height: 14rem;
+}
+.properties-card-conatiner__left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no-rentals-found{
+  width: 100%;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #787878;
+}
+
+@media (max-width: 900px) {
+  .property-name span {
+      margin-left: 0;
+  }
+  .rooms-row{
+      margin-top: 2rem;
+  }
+  .property-name {
+      display: flex;
+      flex-direction: column;
+  }
+  .card-item{
+      height: auto;
+  }
+  .properties-button{
+      margin-top: 3rem !important;/*included *!important* - conflicting with MUI */
+  }
+  .properties-time{
+      margin-top: 2rem;
+  }
+  .properties-card-right {
+    padding-left: 1rem !important;
+  }
+  .properties-container {
+    padding: 1rem;
+  }
+}

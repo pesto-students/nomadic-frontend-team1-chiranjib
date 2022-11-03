@@ -1,0 +1,112 @@
+.password-background{
+    background-image: url(./../../../public/images/Signup.svg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.password-container{
+    padding: 1rem 2rem;
+    margin: auto;
+    /* background: rgb(239, 239, 239, 0.82); */
+    /* background: linear-gradient(#ffafbc6e,#ffc3a09e); */
+    /* min-height: 81vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+.input-container {
+    display: grid;
+}
+
+.input-container {
+    display: grid;
+}
+.input-title{
+    font-size: 1.5rem;
+    display: inherit;
+    font-weight: 700;
+    color: #d5d5d5;
+}
+.input-field{
+    
+    max-width: 700px;
+    
+}
+.password-title{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #000;
+
+}
+.input-field input{
+    padding-left: 2rem !important; /*included *!important* - conflicting with MUI */
+    border-radius: 0.8rem  !important; /*included *!important* - conflicting with MUI */
+}
+.input-field {
+    border-radius: 0.8rem !important; /*included *!important* - conflicting with MUI */
+    max-width: 600px !important; /*included *!important* - conflicting with MUI */
+    background: #fff !important; /*included *!important* - conflicting with MUI */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(87, 87, 87, 1) !important; /*included *!important* - conflicting with MUI */
+}
+.input-field input:disabled{
+    background: rgba(182, 182, 182, 0.575) !important; /*included *!important* - conflicting with MUI */
+}
+.submit-button{
+    border-radius: 0.8rem !important; /*included *!important* - conflicting with MUI */
+    width: 50% !important; /*included *!important* - conflicting with MUI */
+    margin: 5rem auto 0 !important; /*included *!important* - conflicting with MUI */
+    padding: 0.5rem !important; /*included *!important* - conflicting with MUI */
+    font-size: 1.5rem !important; /*included *!important* - conflicting with MUI */
+    font-weight: 400 !important; /*included *!important* - conflicting with MUI */
+    max-width: 15rem !important; /*included *!important* - conflicting with MUI */
+}
+.input-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    color: #000;
+}
+.flex-center{
+    display: flex !important; /*included *!important* - conflicting with MUI */
+    justify-content: center !important; /*included *!important* - conflicting with MUI */
+    align-items: center !important; /*included *!important* - conflicting with MUI */
+}
+
+@media (max-width: 900px) {
+    .password-background{
+        height: auto;
+    }
+    .password-container{
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .password-title{
+        font-size: 1.3rem;
+    }
+    .input-title{
+        font-size: 1rem;
+    }
+    .input-field input{
+        padding: 0.7rem 1rem 0.7rem 2rem !important;
+    }
+    .input-field {
+        margin-top: 1.2rem !important; /*included *!important* - conflicting with MUI */
+    }
+    .input-row{
+        margin-top:2rem !important; /*included *!important* - conflicting with MUI */
+    }
+    .submit-button{
+        width: 70% !important; /*included *!important* - conflicting with MUI */
+        font-size: 1rem !important; /*included *!important* - conflicting with MUI */
+        padding: 0.4rem 0.2rem !important; /*included *!important* - conflicting with MUI */
+       
+    }
+
+}

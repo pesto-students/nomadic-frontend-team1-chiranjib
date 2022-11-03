@@ -1,0 +1,63 @@
+.dashboard {
+    /* background: linear-gradient(#ffafbc6e,#ffc3a09e); */
+    background: #fff;
+    /* background: rgb(239, 239, 239, 0.82); */
+    padding: 2rem 2rem;
+    min-height: 83vh;
+}
+
+.items-container {
+    padding: 3rem 0;
+}
+
+.items-container>div:nth-child(3n+1) {
+    padding-right: 1rem;
+}
+
+.items-container>div:nth-child(3n+2) {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.items-container>div:nth-child(3n+0) {
+    padding-left: 1rem;
+}
+.load-more{
+    padding: 0.75rem 2rem !important;/*included *!important* - conflicting with MUI */
+}
+.no-properties-found{
+    width: 100%;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #787878;
+}
+
+@media (max-width: 1200px) {
+    
+    .items-container>div:nth-child(3n+1), 
+    .items-container>div:nth-child(3n+2),
+    .items-container>div:nth-child(3n+0) {
+       padding: 0;
+    }
+   
+    .items-container>div:nth-child(2n+1){
+        padding-top: 2rem;
+        padding-right: 1rem;
+    }
+    .items-container>div:nth-child(2n+0){
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+    
+}
+
+@media (max-width: 600px) {
+     
+    .items-container>div:nth-child(2n+1),
+    .items-container>div:nth-child(2n+0){
+        
+       padding: 2rem 0 0 0;
+    }
+    
+}

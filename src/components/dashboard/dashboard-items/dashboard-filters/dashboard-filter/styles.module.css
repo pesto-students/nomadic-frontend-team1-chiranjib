@@ -1,0 +1,45 @@
+.filter-icon {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-right: 2rem;
+    min-width: 5rem;
+    color:#924bf8;
+    cursor: pointer;
+}
+
+.filter-name{
+    color: #706F6F;
+    padding-top: 0.5rem;
+}
+.fa-height{
+    font-size: 1.5rem !important;
+    
+}
+.fa-height-subdestination{
+    font-size: 1rem !important;
+}
+.fa-height:hover{
+    font-size: 28px !important;
+}
+.fa-height.highlight{
+    /* color: rgb(60, 136, 241,0.85) !important; */
+    color:#ff00409d !important;
+    font-weight: 600 !important;
+    font-size: 1.75rem !important;
+}
+.fa-height-subdestination.highlight{
+    font-size: 1.5rem !important;
+}
+.filter-name.highlight{
+    color:#ff00409d !important;
+    font-weight: 700;
+}
+.fa-height.highlight.destination-selected{
+    color:#918d8ebe !important;
+    font-size: 2.2rem !important;
+}
+.filter-name.highlight.destination-selected{
+    color:#918d8ebe !important;}

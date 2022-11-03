@@ -1,0 +1,169 @@
+.property-container{
+    padding: 1rem 10vw;
+    margin: auto ;
+    max-width: 900px;
+    /* background: rgb(239, 239, 239, 0.82); */
+
+    min-height: 81vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.input-container {
+    display: grid;
+    margin-top: 5rem;
+}
+
+.input-container {
+    display: grid;
+
+}
+.input-title{
+    font-size: 1.2rem;
+    display: inherit;
+    font-weight: 500;
+}
+.input-field{
+    
+    max-width: 700px;
+    
+}
+
+.property-title{
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgba(87, 87, 87, 1);
+
+}
+.select-field{
+    width: 100%  !important; /*included *!important* - conflicting with MUI */
+    border: none !important;
+    outline: none !important;
+}
+.select-field:hover{
+    border: none !important;
+    outline: none !important;
+}
+.select-field>div{
+    padding: 0.75rem 0.75rem 0.75rem 2rem !important; /*included *!important* - conflicting with MUI */
+    min-height: 1rem !important;
+    text-align: left;
+}
+.input-field input{
+    border-radius: 0.8rem  !important; /*included *!important* - conflicting with MUI */
+    padding: 0.75rem 0.75rem 0.75rem 2rem !important; /*included *!important* - conflicting with MUI */
+}
+.input-field {
+    border-radius: 0.8rem !important; /*included *!important* - conflicting with MUI */
+    max-width: 600px !important; /*included *!important* - conflicting with MUI */
+    background: #fff !important; /*included *!important* - conflicting with MUI */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(87, 87, 87, 1) !important; /*included *!important* - conflicting with MUI */
+}
+.input-field input:disabled{
+    background: rgba(182, 182, 182, 0.575) !important; /*included *!important* - conflicting with MUI */
+}
+.overview-area{
+    font-family: "Roboto" !important;
+    font-size: 1rem;
+    width: -webkit-fill-available !important;
+    width: 80% !important;
+}
+.submit-button{
+    border-radius: 0.8rem !important; /*included *!important* - conflicting with MUI */
+    width: 50% !important; /*included *!important* - conflicting with MUI */
+    margin: 5rem auto 0 !important; /*included *!important* - conflicting with MUI */
+    padding: 0.5rem !important; /*included *!important* - conflicting with MUI */
+    font-size: 1.5rem !important; /*included *!important* - conflicting with MUI */
+    font-weight: 400 !important; /*included *!important* - conflicting with MUI */
+    max-width: 15rem !important; /*included *!important* - conflicting with MUI */
+}
+.input-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    color: #222020;
+}
+.flex-center{
+    display: flex !important; /*included *!important* - conflicting with MUI */
+    justify-content: center !important; /*included *!important* - conflicting with MUI */
+    align-items: center !important; /*included *!important* - conflicting with MUI */
+}
+.error{
+    color: #f54e45;
+    font-weight: 700;
+    margin-top: 0.3rem;
+}
+
+.dropzone {
+    text-align:center !important;
+    padding: 20px !important;
+    border: 3px #924bf8 dashed !important;
+    width: 60% !important;
+    margin: auto !important;
+    max-width: 500px !important;
+  }
+
+.file-list {
+    /* border: 3px dotted black; */
+    display: flex !important;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 10px 20px;
+    margin: 20px 30px;
+    /* border: 3px dotted black; */
+  }
+  .file-list img {
+    height: 100%;
+    width: 100px;
+    padding-right: 10px;
+    object-fit: cover;
+  }
+  .file-item{
+    position: relative;
+  }
+  .cancel-icon{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+  }
+  .amenities-container{
+    width: 86% !important;
+    padding-left: 3rem !important;
+  }
+  
+@media (max-width: 900px) {
+    .property-container{
+        padding: 2rem 1rem 10rem 1rem;
+    }
+    .property-title{
+        font-size: 1.5rem;
+    }
+    .input-title{
+        font-size: 1.1rem;
+    }
+    .input-field input{
+        padding: 0.7rem 1rem 0.7rem 2rem !important;
+    }
+    .input-field {
+        margin-top: 1.2rem !important; /*included *!important* - conflicting with MUI */
+    }
+    .input-row{
+        margin-top:2rem !important; /*included *!important* - conflicting with MUI */
+    }
+    .submit-button{
+        width: 70% !important; /*included *!important* - conflicting with MUI */
+        font-size: 1rem !important; /*included *!important* - conflicting with MUI */
+        padding: 0.4rem 0.2rem !important; /*included *!important* - conflicting with MUI */
+       
+    }
+    .amenities-container{
+        width: 100% !important;
+        padding: 1rem 1rem !important;
+      }
+      .dropzone {
+        width: 85% !important;
+      }
+
+}

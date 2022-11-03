@@ -1,0 +1,33 @@
+.bookings-card{
+    width: 100% !important;/*included *!important* - conflicting with MUI */
+    padding: 1rem 1rem !important;/*included *!important* - conflicting with MUI */
+    background: #fff;
+    margin-top: 2rem !important;/*included *!important* - conflicting with MUI */
+    border-radius: 0.8rem !important;/*included *!important* - conflicting with MUI */
+    box-shadow: 5px 5px 10px 5px #8831f31f;
+    border: 2px solid #f586146b;
+    margin-left: 0 !important;/*included *!important* - conflicting with MUI */
+
+}
+.bookings-grid-item{
+    padding: 0 !important;/*included *!important* - conflicting with MUI */
+
+}
+.bookings-grid-item img{
+    width: 100%;
+    border-radius: 0.8rem !important;/*included *!important* - conflicting with MUI */
+}
+.bookings-grid-item{
+    text-align: left;
+}
+.bookings-grid-item-right{
+    padding: 0 2rem !important;/*included *!important* - conflicting with MUI */
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+    .bookings-grid-item-right{
+        padding: 1rem 0 !important;/*included *!important* - conflicting with MUI */
+        text-align: left;
+    }
+}
