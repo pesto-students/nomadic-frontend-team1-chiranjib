@@ -1,0 +1,20 @@
+.common-textfield {
+    background: #fff9f9 !important; /*included *!important* - conflicting with MUI */
+    color: #000 !important; /*included *!important* - conflicting with MUI */
+    border-radius: 2rem !important;
+}
+
+.common-textfield fieldset {
+    /* border-radius: 25px !important; */
+    border: none !important;
+}
+
+.error{
+    color: #f54e45;
+    font-weight: 700;
+    margin-top: 0.3rem;
+}
+
+.non-italic-select-option{
+    font-style: normal;
+}

@@ -1,0 +1,138 @@
+.bookings-container {
+    padding: 1rem 2rem;
+    margin: auto;
+    /* background: rgb(239, 239, 239, 0.82); */
+    /* background: linear-gradient(#ffafbc6e, #ffc3a09e); */
+    min-height: 81vh;
+    color: #000;
+}
+.bookings-past{
+    background: #e5e0e0f5 !important;
+}
+.title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: left;
+    color: #575757;
+    margin-top: 1.5rem;
+}
+.title-margin{
+    margin-top: 5rem;
+}
+
+.property-name {
+    font-size: 1.5rem;
+}
+
+.text-thin {
+    font-size: 0.9rem;
+    font-weight: 300;
+   
+}
+.margin-left{
+    margin-left: 1rem;
+}
+.margin-right{
+    margin-right: 1rem;
+}
+.rooms-image {
+    max-height: 2rem;
+    margin-right: 1rem;
+}
+.rooms-row{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+.date{}
+.price{
+    color: #924bf8;
+    font-size: 1.3rem;
+}
+.bookings-card{
+    height: 100%;
+}
+.card-item{
+    height: 100%;
+}
+.bookings-card-left,
+.bookings-card-right{
+    display: flex !important;/*included *!important* - conflicting with MUI */
+    flex-direction: column !important;/*included *!important* - conflicting with MUI */
+    justify-content: space-between;
+}
+.bookings-time{
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+}
+.success-button{
+    background: #30CC7E !important;/*included *!important* - conflicting with MUI */
+}
+.success-button:hover{
+    background-color: #24a564 !important;/*included *!important* - conflicting with MUI */
+}
+.danger-button{
+    background: #DF736E !important;/*included *!important* - conflicting with MUI */
+}
+.danger-button:hover{
+    background: #c26460 !important;/*included *!important* - conflicting with MUI */
+}
+.modal-padding{
+    padding: 5rem 2rem !important;
+}
+.modal-text{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.modal-buttons{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.modal-buttons .bookings-button{
+    border-radius: 0.2rem !important;
+    padding: 0.75rem 4rem !important;
+}
+.no-bookings-found{
+    width: 100%;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #787878;
+}
+
+@media (max-width: 900px) {
+    .property-name span {
+        margin-left: 0;
+    }
+    .rooms-row{
+        margin-top: 2rem;
+    }
+    .property-name {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-item{
+        height: auto;
+    }
+    .bookings-button{
+        margin-top: 3rem !important;/*included *!important* - conflicting with MUI */
+    }
+    .bookings-time{
+        margin-top: 2rem;
+    }
+    .bookings-container {
+        padding: 1rem;
+    }
+    .modal-padding{
+        padding: 5rem 1rem !important;
+        width: 80% !important;
+    }
+    .modal-buttons .bookings-button{
+        padding: 0.75rem 2rem !important;
+    }
+}

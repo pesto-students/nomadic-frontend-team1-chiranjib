@@ -1,0 +1,155 @@
+.wishlist-container {
+  padding: 1rem 2rem;
+  margin: auto;
+  /* background: rgb(239, 239, 239, 0.82); */
+  /* background: linear-gradient(#ffafbc6e, #ffc3a09e); */
+  min-height: 81vh;
+  color: #706F6F;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: left;
+  color: #575757;
+  margin-top: 1.5rem;
+}
+
+.wishlist-card {
+  height: 100%;
+}
+
+.wishlist-card-left {
+  display: flex !important;
+  /*included *!important* - conflicting with MUI */
+  flex-direction: column !important;
+
+}
+.wishlist-card-right {
+  display: flex !important;
+  /*included *!important* - conflicting with MUI */
+  flex-direction: column !important;
+  /*included *!important* - conflicting with MUI */
+  justify-content: space-between;
+  padding: 3rem 0 2rem !important;
+}
+
+.card-item {
+  height: 100%;
+}
+
+.property-name {
+  font-size: 1.5rem;
+  color:#000;
+}
+
+.text-thin {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.margin-left {
+  margin-left: 1rem;
+}
+
+.rooms-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  color: #000;
+}
+
+.margin-right {
+  margin-right: 1rem;
+}
+
+.price {
+  color: #3C88F1;
+  font-size: 1.3rem;
+}
+
+.wishlist-time {
+  /* color: #706F6F; */
+  font-weight: 500;
+  text-align: center;
+  color:#000;
+}
+
+.rooms-image {
+  max-height: 2rem;
+  margin-right: 1rem;
+}
+.wishlist-buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.danger-button{
+  background: #ff0040 !important;/*included *!important* - conflicting with MUI */
+}
+.danger-button:hover{
+  background: #ff0040 !important;/*included *!important* - conflicting with MUI */
+}
+
+.wishlist-button{
+  padding: 0.4rem 2rem !important;
+  font-size: 1rem !important;
+}
+
+.wishlist-card-container{
+  min-height: 14rem;
+}
+.wishlist-card-conatiner__left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no-rentals-found{
+  width: 100%;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #787878;
+}
+@media (min-width: 1500px) {
+  .wishlist-buttons{
+   
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 900px) {
+  .wishlist-container {
+    padding: 1rem;
+  }
+  .property-name span {
+    margin-left: 0;
+  }
+
+  .rooms-row {
+    margin-top: 2rem;
+  }
+
+  .property-name {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-item {
+    height: auto;
+  }
+
+  .wishlist-button {
+    margin-top: 3rem !important;
+    font-size: 0.8rem;
+    padding: 0.3rem 2rem !important;
+    /*included *!important* - conflicting with MUI */
+  }
+
+  .wishlist-time {
+    margin-top: 2rem;
+  }
+  .wishlist-card-right {
+    padding-left: 1rem !important;
+  }
+}

@@ -1,0 +1,47 @@
+.top-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.property-name {
+    font-size: 2rem;
+    text-align: left;
+}
+
+.ratings,
+.reviews {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.reviews {
+    text-decoration: underline;
+}
+
+.ratings span {
+    font-weight: 500;
+    padding: 1px 0 0 0.3rem;
+}
+
+.property-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0.75rem 0;
+}
+
+.reviews span {
+    font-weight: 600;
+}
+
+@media (max-width: 900px) {
+    .property-info {
+        margin-bottom: 2rem;
+    }
+}

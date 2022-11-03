@@ -1,0 +1,50 @@
+.profile-background {
+    /* background-image: url(./../../../public/images/Signup.svg); */
+    background-image: url(./../../public/images/Signup.svg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-header,.profile-footer {
+    width: 100%;
+}
+
+.profile-header-background{
+    background: transparent;
+}
+
+.center-card {
+    margin: auto;
+    background-color: rgba(71, 70, 70, 0.15);
+    width: 60%;
+    /* height: 50%; */
+    display: grid;
+    backdrop-filter: blur(6px);
+    padding: 5vh 2vw;
+    border-radius: 1.2rem;
+}
+
+
+@media (max-width: 800px) {
+    .profile-background {
+        height: auto;
+    }
+    .center-card {
+        width: 90%;
+        margin: 4rem 0;
+        padding: 2vh 2vw;
+    }
+}
+
+@media (max-height: 800px) {
+    .center-card {
+        height: 80%;
+    }
+}

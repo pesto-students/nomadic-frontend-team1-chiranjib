@@ -1,0 +1,37 @@
+.container{
+    width: 30%;
+    height: 70%;
+    background: #fff;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 0.5rem 0.3rem 1rem;
+    border: 2px solid #f72ca685;
+}
+input{
+    width: 80%;
+    border: none;
+    height: 100%;
+    border-radius: 2rem;
+    outline: none;
+}
+
+button.round{
+    padding: 10px 12px !important;
+    border-radius: 50% !important;
+    min-width: 10px !important;
+}
+
+@media (max-width: 1000px) {
+    .container{
+        width: 40%;
+        height: 60%;
+    }
+    .search-icon{
+        height: 1rem;
+    }
+    button.round{
+        padding: 0.5rem 0.5rem !important;
+        min-width: 5px !important;
+    }
+}

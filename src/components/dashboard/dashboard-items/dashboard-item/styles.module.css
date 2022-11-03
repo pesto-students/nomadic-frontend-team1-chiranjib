@@ -1,0 +1,130 @@
+.card-grid{
+    cursor: pointer;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px #8831f31f;
+    background: #fff;
+    padding: 1rem !important;
+    border: 2px solid #f586146b;/* Daniel to test */
+    /* border: 2px solid #f72ca657;Daniel to test */
+}
+
+.item-container {
+    max-height: "40vh";
+    border-radius: "10px";
+    outline: "1px solid";
+
+}
+.card-image-section{
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14vw;
+}
+.main-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /* object-fit: none; */
+    /* max-height: 13.5vh; */
+}
+
+.info {
+    padding: 0 0.8rem !important;
+    /*included *!important* - conflicting with MUI */
+    color: #706F6F;
+    text-align: left;
+    display: flex;
+    flex-direction: column !important;
+    /*included *!important* - conflicting with MUI */
+    justify-content: space-between;
+}
+
+.info-heading {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #000;
+
+}
+
+.info-heading .heart-filled {
+    max-height: 1.5rem;
+}
+
+.info-heading .heart-unfilled {
+    max-height: 1.2rem;
+}
+
+.info-sub-heading {
+    font-weight: 400;
+    /* margin-top: 1rem; */
+    font-size: 0.8rem;
+}
+
+.rooms-image {
+    max-height: 1.5rem;
+    margin-right: 1rem;
+}
+
+.info-rooms {
+    display: flex;
+    font-size: 0.8rem;
+    align-items: center;
+    margin-top: 0.3rem;
+
+}
+
+.info-price {
+    font-weight: 400;
+    /* text-align: right; */
+    font-size: 1.1rem;
+    color: #924bf8;
+    font-weight: 500;
+}
+
+@media (max-width: 1450px) {
+    .main-image {
+        /* max-height: 11.5vh; */
+    }
+}
+
+@media (max-width: 1320px) {
+    .main-image {
+        /* max-height: 10vh; */
+    }
+}
+
+@media (max-width: 900px) {
+    .card-image-section{
+        margin: auto;
+    }
+    .main-image {
+        /* max-height: 15vh; */
+        width: auto;
+        max-width: 30vw;
+    }
+
+    .info {
+        padding: 1rem 0.2rem !important;
+        /*included *!important* - conflicting with MUI */
+    }
+
+    .info-sub-heading {
+        margin-top: 1.5rem;
+    }
+
+    .info-rooms {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-image {
+        max-height: none;
+        max-width: 70vw;
+    }
+}

@@ -1,0 +1,49 @@
+.nomadic{
+    width:10rem;
+}
+.main-header{
+    /* background: rgb(239, 239, 239, 0.82); */
+    /* background: #ffafbc6e; */
+    padding: 0.5rem 2rem;
+    display: flex;
+    /* justify-content: space-between; */
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 5;
+}
+.profile-image{
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+}
+.custom-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+}
+.logo{
+    width: auto;
+}
+.header-name{
+    justify-content: center;
+}
+.login-button{
+    padding: 0.4rem 3rem !important;/*included *!important* - conflicting with MUI */
+}
+
+@media (max-width: 1000px) {
+    .nomadic{
+        width:4rem;
+    }
+
+    .profile-image{
+        height: 2rem;
+        width: 2rem;
+    }
+    .login-button{
+        padding: 0.4rem 1.5rem !important;/*included *!important* - conflicting with MUI */
+    }
+}

@@ -1,0 +1,43 @@
+.nomadic{
+    width:10rem;
+    margin-right: 1rem;
+}
+.main-footer{
+    /* background: rgb(239, 239, 239, 0.82); */
+    /* background: #ffc3a09e; */
+    padding: 0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.heading span{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.heading{
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.sub-headings{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    
+}
+
+@media (max-width: 1000px) {
+    .nomadic{
+        width:7rem;
+        margin-right: 1rem;
+    }
+    .sub-headings{
+        font-size: 0.9rem;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .sub-headings span{
+        
+        margin:1rem ;
+    }
+}

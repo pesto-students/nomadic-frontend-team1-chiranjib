@@ -1,0 +1,42 @@
+.reviews-grid{
+    margin-top: 1rem !important;
+}
+.user-grid{
+    display: flex;
+}
+.user-grid img{
+    height: 3rem;
+    width: 3rem;
+}
+.user-name_date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+    text-align: left;
+}
+.user-review{
+    margin-top: 1rem;
+    text-align: left;
+    font-weight: 300;
+}
+.rating{
+    padding: 1rem 2rem 1rem 0;
+}
+.user-name{
+    font-weight: 500;
+}
+.user-date{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #808080;
+}
+@media (max-width: 1000px) {
+    .user-grid img{
+        height: 2rem;
+        width: 2rem;
+    }
+    .rating{
+        padding: 1rem 0;
+}
+}

@@ -1,0 +1,11 @@
+.common-button{
+    /*background:rgb(60, 136, 241,0.85) !important;/*included *!important* - conflicting with MUI */
+    border-radius: 0.75rem !important;/*included *!important* - conflicting with MUI */
+    color: #fff !important;/*included *!important* - conflicting with MUI */
+    text-transform: none !important;/*included *!important* - conflicting with MUI */
+}
+
+.common-button:disabled{
+    /*background:rgb(60, 136, 241,0.45) !important;/*included *!important* - conflicting with MUI */
+    cursor: pointer !important;/*included *!important* - conflicting with MUI */
+}
